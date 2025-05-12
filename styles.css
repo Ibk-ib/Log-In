@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.678)), url(640x308_img1.jpg) no-repeat center center / cover;
+}
+.form{
+    width: 300px;
+    box-sizing: border-box;
+    padding: 50px;
+    border-radius: 10px;
+}
+.details{
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+
+}
+.forgot{
+    justify-self: right;
+    padding: 5px 16px 0 0;
+
+}
+button{
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    transition: 0.5s;
+    font-weight: 600px;
+    font-size: 13px
+    
+}
+button:hover{
+    background-color: rgb(70, 71, 73);
+    color: white;
+    transition: 0.5s;
+    font-weight: 600px;
+}
+.label{
+    color: white;
+    font-size: 15px;
+    font-weight: 600px;
+}
+.input{
+    width: 200px;
+    border-radius: 5px;
+    height: 20px;
+}
