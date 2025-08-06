@@ -14,9 +14,10 @@ body{
     background: url(Images/ghs.jpeg) no-repeat;
     background-size: cover;
     background-position: center;
+    overflow: auto;
 }
 
-.form{
+.container{
     margin-top: 50px;
     width: 380px;
     background-color: transparent;
@@ -27,11 +28,13 @@ body{
     border-radius: 16px;
     padding: 20px 30px;
 }
+
 @media (max-width: 760px) {
-    .form{
+    .container{
         width: 350px;
     }
 }
+
 
 .form h1{
     font-size: 30px;
@@ -128,4 +131,16 @@ body{
 }
 .google p{
     align-self: center;
+}
+body[data-page="index"] {
+  background: url(Images/ghs.jpeg) no-repeat center center/cover;
+}
+
+body[data-page="signup"] {
+  background: url(Images/ChatGPT\ Image\ Aug\ 6\,\ 2025\,\ 11_16_42\ AM.png) no-repeat center center/cover;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 1s ease-out;
 }
